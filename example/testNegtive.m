@@ -1,0 +1,3 @@
+FUN = @(x)(3 - (x+3)^2);
+[peak, route] = ffoa(FUN, 'maxIterations', 100, 'popSize', 20,...
+    'minmax', 'max', 'plotFlag', 1);
