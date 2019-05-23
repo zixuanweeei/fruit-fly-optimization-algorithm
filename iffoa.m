@@ -1,4 +1,4 @@
-%FFOA fruit fly optimization algorithm.
+% FFOA fruit fly optimization algorithm.
 function [peak, route, yy] = iffoa(FUN, varargin)
 
 if ~mod(nargin, 2)
